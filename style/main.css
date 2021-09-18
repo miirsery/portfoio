@@ -1,0 +1,38 @@
+.blog {
+  margin-top: 15px;
+}
+
+.blog-content {
+  background-color: black;
+  padding: 10px;
+}
+
+.title-screen {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-screen h1 {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  font-size: calc(16px + 1.2vw);
+  font-weight: 700;
+  color: #fff4ece5;
+  font-size: 5rem;
+  animation: showTop 0.7s;
+  z-index: 1;
+}
+
+.footer {
+  position: absolute;
+  height: 10%;
+  max-width: 1440px;
+  bottom: 0;
+  right: 0;
+  background-color: #61a6ff;
+}
+.footer-info {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}

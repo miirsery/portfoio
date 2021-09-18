@@ -1,0 +1,62 @@
+footer {
+  position: relative;
+  font-size: 18px;
+}
+footer p {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.title-screen {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-screen h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.list-articles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 30px 0;
+}
+
+.list-articles .item {
+  width: 24%;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.article-title {
+  text-align: center;
+}
+
+.article-text {
+  padding-top: 10px;
+}
+.article-text:hover {
+  filter: brightness(0.7);
+}
+.scale {
+  margin: 15px auto;
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.scale img {
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+}
+.scale img:hover {
+  transform: scale(1.05); /* Увеличиваем масштаб */
+}
+.main-info {
+  margin-bottom: 50px;
+}
+.main-info h2 {
+  margin: 10px auto;
+}
