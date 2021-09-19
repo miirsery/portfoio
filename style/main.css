@@ -3,7 +3,7 @@
 }
 
 .blog-content {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.226);
   padding: 10px;
 }
 
@@ -21,18 +21,4 @@
   font-size: 5rem;
   animation: showTop 0.7s;
   z-index: 1;
-}
-
-.footer {
-  position: absolute;
-  height: 10%;
-  max-width: 1440px;
-  bottom: 0;
-  right: 0;
-  background-color: #61a6ff;
-}
-.footer-info {
-  position: absolute;
-  height: 50%;
-  width: 50%;
 }

@@ -139,11 +139,12 @@ a {
   position: fixed;
   background-color: #a0735659;
   height: 100vw;
-  max-width: 1440px;
+  width: auto;
   margin: 0 auto;
   transition: 0.5s;
 }
 .content-center h4 {
+  font-style: italic;
   display: flex;
   position: relative;
   font-size: calc(8px + 0.6vw);
@@ -152,6 +153,9 @@ a {
   margin-top: 20%;
   animation: showRight 0.7s;
   z-index: 1;
+}
+.content-center b {
+  margin: auto 0.5em auto 0.5em;
 }
 .content-center h1 {
   display: inline;
@@ -190,6 +194,20 @@ a {
 }
 #img {
   position: absolute;
+  background: url(../images/bg.jpg) center no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-size: cover;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+#img-scroll {
+  position: fixed;
   background: url(../images/bg.jpg) center no-repeat;
   width: 100%;
   height: 100%;

@@ -22,7 +22,7 @@ footer p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(0, 0, 0, 0.37);
   padding: 30px 0;
 }
 
@@ -34,13 +34,15 @@ footer p {
 
 .article-title {
   text-align: center;
+  color: rgb(255, 217, 196);
+  font-weight: 800;
 }
 
 .article-text {
   padding-top: 10px;
 }
 .article-text:hover {
-  filter: brightness(0.7);
+  filter: brightness(0.9);
 }
 .scale {
   margin: 15px auto;
@@ -56,7 +58,18 @@ footer p {
 }
 .main-info {
   margin-bottom: 50px;
+  background-color: rgba(83, 49, 10, 0.192);
 }
 .main-info h2 {
-  margin: 10px auto;
+  text-indent: 30px;
+  margin: 15px 0;
+}
+.main-info p {
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 238, 226, 0.87);
+}
+.blog-content p {
+  font-weight: bold;
+  font-size: 24px;
 }
