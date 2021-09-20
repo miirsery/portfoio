@@ -234,7 +234,7 @@ a {
 }
 
 .accordion {
-  max-width: 780px;
+  max-width: 1080px;
   margin: 100px auto;
 }
 .accordion .contentBx {
@@ -244,15 +244,16 @@ a {
 .accordion .contentBx .label {
   position: relative;
   padding: 10px;
-}
-.accordion .contentBx .label {
-  margin: 5px;
-  background-color: rgba(63, 42, 23, 0.452);
   cursor: pointer;
   color: #fff;
+  background-color: rgba(63, 42, 23, 0.452);
+}
+.accordion .contentBx .label p {
+  margin-left: 15px;
 }
 
 .accordion .contentBx .label::before {
+  overflow: hidden;
   content: "+";
   position: absolute;
   top: 50%;
@@ -269,9 +270,8 @@ a {
   position: relative;
   background: rgba(110, 73, 41, 0.24);
   height: 0;
-  overflow: hidden;
   transition: 0.65s;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .accordion .contentBx.active .content {
