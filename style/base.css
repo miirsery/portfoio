@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "TT Commons ";
+  src: local("../fonts/TTCommons/TT Commons  Extra Light"),
+    local("../fonts/TTCommons/TT-Commons--Extra-Light"),
+    url("../fonts/TTCommons/TTCommons-ExtraLight.woff2") format("woff2"),
+    url("../fonts/TTCommons/TTCommons-ExtraLight.woff") format("woff"),
+    url("../fonts/TTCommons/TTCommons-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +16,7 @@
 }
 body {
   font-family: "Azeret Mono", monospace;
+
   background-color: #64473583;
   color: #fff;
   height: 100%;
@@ -14,7 +26,7 @@ a {
   color: #fff;
 }
 .container {
-  display: absolute;
+  display: block;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -219,6 +231,52 @@ a {
   animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+.accordion {
+  max-width: 780px;
+  margin: 100px auto;
+}
+.accordion .contentBx {
+  position: relative;
+  margin: 10px 20px;
+}
+.accordion .contentBx .label {
+  position: relative;
+  padding: 10px;
+}
+.accordion .contentBx .label {
+  margin: 5px;
+  background-color: rgba(63, 42, 23, 0.452);
+  cursor: pointer;
+  color: #fff;
+}
+
+.accordion .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordion .contentBx.active .label::before {
+  content: "-";
+}
+
+.accordion .contentBx .content {
+  position: relative;
+  background: rgba(110, 73, 41, 0.24);
+  height: 0;
+  overflow: hidden;
+  transition: 0.65s;
+  overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+  height: 150px;
+  padding: 10px;
 }
 
 @keyframes showLeft {

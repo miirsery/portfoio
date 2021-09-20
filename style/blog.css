@@ -57,19 +57,35 @@ footer p {
   transform: scale(1.05); /* Увеличиваем масштаб */
 }
 .main-info {
+  font-family: "TT Commons ";
   margin-bottom: 50px;
-  background-color: rgba(83, 49, 10, 0.192);
+  background-color: rgba(36, 19, 0, 0.397);
+  max-width: 1440px;
+}
+.main-info img {
+  border-radius: 5px;
+  max-width: 730px;
+  max-height: 420px;
 }
 .main-info h2 {
   text-indent: 30px;
   margin: 15px 0;
 }
 .main-info p {
-  font-weight: 400;
-  font-style: normal;
-  color: rgba(255, 238, 226, 0.87);
+  text-indent: 30px;
+  font-weight: 300;
+  font-size: 24px;
+  margin-left: 15px;
+  color: rgba(255, 254, 254, 0.87);
+}
+.blog-content {
+  text-align: center;
+  background-color: rgba(36, 18, 1, 0.5);
 }
 .blog-content p {
   font-weight: bold;
   font-size: 24px;
+}
+.center-picture {
+  text-align: center;
 }
