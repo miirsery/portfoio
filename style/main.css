@@ -15,10 +15,10 @@
 .title-screen h1 {
   font-family: "Courier New", Courier, monospace;
   position: relative;
-  font-size: calc(16px + 1.2vw);
+  font-size: calc(12px + 1.2vw);
   font-weight: 700;
   color: #fff4ece5;
-  font-size: 5rem;
+  font-size: 4rem;
   animation: showTop 0.7s;
   z-index: 1;
 }
