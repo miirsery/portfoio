@@ -1,0 +1,38 @@
+tfoot tr th {
+    position: relative;
+    text-align: left;
+    padding-left: 40px;
+}
+tfoot tr td {
+    display: inline;
+    position: relative;
+    font-size: 18px;
+    top: 10px;
+    right: 500px;
+}
+
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgba(160, 119, 103, 0.473);;
+    background-color: rgba(85, 43, 27, 0.473);
+}
+
+.table caption {
+    position: relative;
+    font-weight: 800;
+    font-size: 36px;
+    color: rgba(82, 43, 35, 0.774);
+}
+
+th, td { 
+    padding: 10px;
+}
+td { 
+    text-align: center;
+}
+.table thead tr th {
+    font-weight: 300;
+}
