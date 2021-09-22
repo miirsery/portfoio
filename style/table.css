@@ -3,6 +3,7 @@ tfoot tr th {
     text-align: left;
     padding-left: 40px;
 }
+
 tfoot tr td {
     display: inline;
     position: relative;
@@ -11,28 +12,42 @@ tfoot tr td {
     right: 500px;
 }
 
+tbody tr {
+    height: auto;
+}
 
 .table {
     table-layout: fixed;
+    position: relative;
+    top: 45px;
     width: 100%;
+    height: auto;
     border-collapse: collapse;
-    border: 3px solid rgba(160, 119, 103, 0.473);;
+    border: 3px solid rgba(160, 119, 103, 0.473);
+    ;
     background-color: rgba(85, 43, 27, 0.473);
+}
+
+thead tr th {
+    font-size: 24px;
 }
 
 .table caption {
     position: relative;
     font-weight: 800;
-    font-size: 36px;
-    color: rgba(82, 43, 35, 0.774);
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.788);
+    text-shadow: 1px 0 1px rgb(126, 125, 125);
 }
 
-th, td { 
+th, td {
     padding: 10px;
 }
-td { 
+
+td {
     text-align: center;
 }
+
 .table thead tr th {
     font-weight: 300;
 }
