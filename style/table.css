@@ -37,7 +37,7 @@ thead tr th {
     font-weight: 800;
     font-size: 48px;
     color: rgba(255, 255, 255, 0.788);
-    text-shadow: 1px 0 1px rgb(126, 125, 125);
+    text-shadow: 2px 0 2px rgb(53, 53, 53);
 }
 
 th, td {
@@ -50,4 +50,8 @@ td {
 
 .table thead tr th {
     font-weight: 300;
+}
+.line {
+    position: relative;
+    background-color: #fff;
 }
