@@ -1,0 +1,37 @@
+button {
+  transition: all 0.5s;
+  background: rgba(255, 255, 255, 0.103);
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.322);
+}
+
+.dec-block {
+  max-width: 300px;
+  margin: 0 auto;
+  border: 3px solid #222;
+}
+.button_text {
+  transition: all 0.5s;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 22px;
+}
+.button_text:hover {
+  color: rgb(0, 0, 0);
+}
+.button-body {
+  text-align: center;
+}
+
+.dec-block__inputs-block {
+  display: flex;
+  flex-direction: column;
+}
+.inputs-block__item {
+  margin: 15px 0;
+  background: rgb(114, 113, 113);
+  color: #fff;
+}

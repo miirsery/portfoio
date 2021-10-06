@@ -30,3 +30,47 @@ for (i = 0; i < accordion.length; i++) {
     this.classList.toggle('active')
   })
 }
+
+// let A = document.querySelector('.item1')
+// let B = document.querySelector('.item2')
+// let btn1 = document.querySelector('.button')
+// let rst = document.querySelector('.output')
+// let name_string = "Никифоров "
+// btn1.onclick = function () {
+//   console.log(A.value);
+//   console.log(B.value);
+//   // let c = parseInt(A.value) + parseInt(B.value)
+//   // let c = A.value + B.value;
+//   let c = [A.value, B.value].join(' ')
+//   const result = name_string + c.split('').reverse().join('');
+//   A.value = ''
+//   B.value = ''
+//   console.log(result)
+//   console.log(result)
+//   rst.innerHTML = result;
+// }
+
+
+
+let input_1 = document.querySelector('.item1');
+let button = document.querySelector('button');
+let output = document.querySelector('.output');
+button.onclick = function () {
+  console.log(input_1.value);
+
+  function declOfNum(n, text_forms) {
+    n = Math.abs(n) % 100;
+    var n1 = n % 10;
+    if (n > 10 && n < 20) { return text_forms[2]; }
+    if (n1 > 1 && n1 < 5) { return text_forms[1]; }
+    if (n1 == 1) { return text_forms[0]; }
+    return text_forms[2];
+  }
+
+  $('.item1').on('change', function () {
+    val = declOfNum($(this).val(), ['год', 'года', 'лет']);
+    output.innerHTML = $('#num-word').text(val);
+  });
+
+ 
+}

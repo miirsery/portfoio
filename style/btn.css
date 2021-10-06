@@ -1,0 +1,78 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    background: rgba(216, 176, 116, 0.541);
+}
+
+.container-btn {
+    place-items: center;
+    align-items: center;
+    border: 0.3rem solid;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.inputs {
+    width: 10em;
+    margin: auto auto;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    background: rgba(218, 150, 49, 0.541);
+    border-radius: 20%;
+}
+
+
+.button:hover {
+    transition: 0.3s;
+    border-radius: 30%;
+    background: rgba(214, 185, 142, 0.541);
+}
+
+
+.output {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.table-body-wapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-body {
+    padding: 5px;
+}
+
+.table-body__button {
+    align-items: center;
+    display: block;
+    padding: 5px;
+    margin: 0 0 5px 0;
+}
+
+.table-body__inputs-block {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.table-body__inputs-group {
+    width: 10em;
+    margin: auto auto;
+}
